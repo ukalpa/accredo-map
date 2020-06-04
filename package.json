@@ -7,7 +7,11 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node dist/accredo-map.js"
+  },
+  "bin": {
+    "accredo-map": "dist/accredo-map.js"
   },
   "keywords": [
     "Accredo",
@@ -26,18 +30,6 @@
     "type": "git",
     "url": "https://github.com/ukalpa/accredo-map"
   },
-  "dependencies": {
-    "bluebird": "^3.5.5",
-    "core-js": "^3.1.4",
-    "dottie": "^2.0.1",
-    "inflection": "^1.12.0",
-    "lodash": "^4.17.11",
-    "moment": "^2.24.0",
-    "moment-timezone": "^0.5.25",
-    "node-fetch": "^2.6.0",
-    "toposort-class": "^1.0.1",
-    "validator": "^11.0.0",
-    "wkx": "^0.4.7"
-  },
+  "dependencies": {},
   "license": "SEE LICENSE IN LICENSE"
 }

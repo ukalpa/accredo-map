@@ -17,3 +17,4 @@ config.gypi
 *.orig
 package-lock.json
 /test
+/accredo-map
