@@ -1,6 +1,6 @@
 {
   "name": "accredo-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Accredo Web Service API Mapping Library Generator",
   "main": "dist/accredo-map.js",
   "engines": {

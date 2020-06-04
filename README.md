@@ -31,6 +31,29 @@ node dist/accredo-map.js --file="./source/metadata.xml" --company="test"
 
 After executing one of the above commands, the script will generate a new folder with mapping files in the directory "accredo-map"
 
+## Parameters
+
+By Url
+```bash
+--url="http://localhost:6567/saturn/odata4/v1/company('nolawine')/"
+```
+
+By File
+```bash
+--file="./source/metadata.xml" --company="test"
+```
+
+Optional, Set Destination Directory, "accredo-map" is the default value.
+```
+--dest="./test"
+```
+
+Optional, Set script files syntax, you can set "es5" or "es6", "es5" is the default value.
+```
+--es=es5
+```
+--es=es5/es6, es5 syntax as default
+
 ## Usage
 
 - After executing one of the above commands, the generator will generate the related javascript files to "accredo-map/demo/*"
@@ -47,4 +70,4 @@ accredo.ARCustomer.find("DEMO_CUSTOMER").then(function(customer){
 })
 ```
 
-For more information and commercial support, welcome to contact admin@bizex.co.nz_
+For more information and commercial support, welcome to contact admin@bizex.co.nz
