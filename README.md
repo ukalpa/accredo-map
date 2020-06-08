@@ -21,7 +21,7 @@ There are two types of generating map files, either you can import from a remote
 
 #### Generate mapping files according to the remote url
 ```bash
-node dist/accredo-map.js --url="http://localhost:6567/saturn/odata4/v1/company('nolawine')/"
+node dist/accredo-map.js --url="http://localhost:6567/saturn/odata4/v1/company('demo')/"
 ``` 
 
 #### Generate mapping files according to the local file
@@ -35,7 +35,7 @@ After executing one of the above commands, the script will generate a new folder
 
 By Url
 ```bash
---url="http://localhost:6567/saturn/odata4/v1/company('nolawine')/"
+--url="http://localhost:6567/saturn/odata4/v1/company('demo')/"
 ```
 
 By File
