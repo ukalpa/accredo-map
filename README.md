@@ -5,7 +5,7 @@
  
 Please notice: normally you don't need to install it, just execute it by 'npx' command to generate the mapping library:
 ```bash
-npx accredo-map --url="http://localhost:6567/saturn/odata4/v1/company('demo')"
+npx accredo-map --url="https://demo.accredo.co.nz:6569/saturn/odata4/v1/Company('demo')/$metadata?access_token=2fCTQBlFdTqHXBSz"
 npx accredo-map --file="./source/metadata.xml" --company="test"
 ```
 
@@ -36,6 +36,11 @@ After executing one of the above commands, the script will generate a new folder
 By Url
 ```bash
 --url="http://localhost:6567/saturn/odata4/v1/company('demo')/"
+```
+
+By Url with token
+```bash
+--url="https://demo.accredo.co.nz:6569/saturn/odata4/v1/Company('demo')/$metadata?access_token=2fCTQBlFdTqHXBSz"
 ```
 
 By File
